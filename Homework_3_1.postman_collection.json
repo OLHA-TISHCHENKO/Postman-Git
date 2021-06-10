@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "ada1e946-1152-4dd5-9bde-29e4192f5900",
+		"name": "Homework_3_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://116.203.27.46:5002/object_info_1?age=5&weight=10&name=bro",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "5"
+						},
+						{
+							"key": "weight",
+							"value": "10"
+						},
+						{
+							"key": "name",
+							"value": "bro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://116.203.27.46:5002/object_info_2?age=32&salary=1000&name=Ted",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "32"
+						},
+						{
+							"key": "salary",
+							"value": "1000"
+						},
+						{
+							"key": "name",
+							"value": "Ted"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "40",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1500",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Serg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://116.203.27.46:5002/user_info_3",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_3"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "40",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Alise",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1200",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://116.203.27.46:5002/user_info_4",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_4"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
